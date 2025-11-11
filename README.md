@@ -21,8 +21,9 @@ uvicorn app:app --reload
 ```
 
 Health check:
-
+```bash
 curl http://127.0.0.1:8000/health
+```
 
 Generate Images (Local)
 Diffusion:
